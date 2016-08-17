@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  theme: MyString
+  hairLength: MyString
+  hairColor: MyString
+  secondaryHairColor: MyString
+  armor: MyString
+  bodypaint: false
+  wings: false
+  tail: false
+
+two:
+  name: MyString
+  theme: MyString
+  hairLength: MyString
+  hairColor: MyString
+  secondaryHairColor: MyString
+  armor: MyString
+  bodypaint: false
+  wings: false
+  tail: false

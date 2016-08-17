@@ -1,0 +1,62 @@
+<%= form_for(skin) do |f| %>
+  <% if skin.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(skin.errors.count, "error") %> prohibited this skin from being saved:</h2>
+
+      <ul>
+      <% skin.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :theme %>
+    <%= f.text_field :theme %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hairLength %>
+    <%= f.text_field :hairLength %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hairColor %>
+    <%= f.text_field :hairColor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :secondaryHairColor %>
+    <%= f.text_field :secondaryHairColor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :armor %>
+    <%= f.text_field :armor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :bodypaint %>
+    <%= f.check_box :bodypaint %>
+  </div>
+
+  <div class="field">
+    <%= f.label :wings %>
+    <%= f.check_box :wings %>
+  </div>
+
+  <div class="field">
+    <%= f.label :tail %>
+    <%= f.check_box :tail %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

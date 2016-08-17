@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Skins</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Theme</th>
+      <th>Hairlength</th>
+      <th>Haircolor</th>
+      <th>Secondaryhaircolor</th>
+      <th>Armor</th>
+      <th>Bodypaint</th>
+      <th>Wings</th>
+      <th>Tail</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @skins.each do |skin| %>
+      <tr>
+        <td><%= skin.name %></td>
+        <td><%= skin.theme %></td>
+        <td><%= skin.hairLength %></td>
+        <td><%= skin.hairColor %></td>
+        <td><%= skin.secondaryHairColor %></td>
+        <td><%= skin.armor %></td>
+        <td><%= skin.bodypaint %></td>
+        <td><%= skin.wings %></td>
+        <td><%= skin.tail %></td>
+        <td><%= link_to 'Show', skin %></td>
+        <td><%= link_to 'Edit', edit_skin_path(skin) %></td>
+        <td><%= link_to 'Destroy', skin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Skin', new_skin_path %>

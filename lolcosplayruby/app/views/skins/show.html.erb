@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @skin.name %>
+</p>
+
+<p>
+  <strong>Theme:</strong>
+  <%= @skin.theme %>
+</p>
+
+<p>
+  <strong>Hairlength:</strong>
+  <%= @skin.hairLength %>
+</p>
+
+<p>
+  <strong>Haircolor:</strong>
+  <%= @skin.hairColor %>
+</p>
+
+<p>
+  <strong>Secondaryhaircolor:</strong>
+  <%= @skin.secondaryHairColor %>
+</p>
+
+<p>
+  <strong>Armor:</strong>
+  <%= @skin.armor %>
+</p>
+
+<p>
+  <strong>Bodypaint:</strong>
+  <%= @skin.bodypaint %>
+</p>
+
+<p>
+  <strong>Wings:</strong>
+  <%= @skin.wings %>
+</p>
+
+<p>
+  <strong>Tail:</strong>
+  <%= @skin.tail %>
+</p>
+
+<%= link_to 'Edit', edit_skin_path(@skin) %> |
+<%= link_to 'Back', skins_path %>

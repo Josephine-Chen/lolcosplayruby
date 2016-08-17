@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @champion.name %>
+</p>
+
+<p>
+  <strong>Top:</strong>
+  <%= @champion.top %>
+</p>
+
+<p>
+  <strong>Jungle:</strong>
+  <%= @champion.jungle %>
+</p>
+
+<p>
+  <strong>Mid:</strong>
+  <%= @champion.mid %>
+</p>
+
+<p>
+  <strong>Adc:</strong>
+  <%= @champion.adc %>
+</p>
+
+<p>
+  <strong>Support:</strong>
+  <%= @champion.support %>
+</p>
+
+<p>
+  <strong>Citystate:</strong>
+  <%= @champion.citystate %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @champion.sex %>
+</p>
+
+<p>
+  <strong>Race:</strong>
+  <%= @champion.race %>
+</p>
+
+<%= link_to 'Edit', edit_champion_path(@champion) %> |
+<%= link_to 'Back', champions_path %>

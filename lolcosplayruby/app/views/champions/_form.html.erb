@@ -1,0 +1,62 @@
+<%= form_for(champion) do |f| %>
+  <% if champion.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(champion.errors.count, "error") %> prohibited this champion from being saved:</h2>
+
+      <ul>
+      <% champion.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :top %>
+    <%= f.check_box :top %>
+  </div>
+
+  <div class="field">
+    <%= f.label :jungle %>
+    <%= f.check_box :jungle %>
+  </div>
+
+  <div class="field">
+    <%= f.label :mid %>
+    <%= f.check_box :mid %>
+  </div>
+
+  <div class="field">
+    <%= f.label :adc %>
+    <%= f.check_box :adc %>
+  </div>
+
+  <div class="field">
+    <%= f.label :support %>
+    <%= f.check_box :support %>
+  </div>
+
+  <div class="field">
+    <%= f.label :citystate %>
+    <%= f.text_field :citystate %>
+  </div>
+
+  <div class="field">
+    <%= f.label :sex %>
+    <%= f.text_field :sex %>
+  </div>
+
+  <div class="field">
+    <%= f.label :race %>
+    <%= f.text_field :race %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
