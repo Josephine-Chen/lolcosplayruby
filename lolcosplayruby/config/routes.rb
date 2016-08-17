@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+	root 'welcome#index'
   resources :skins
   resources :champions, :has_many => :skins
   resources :guides
