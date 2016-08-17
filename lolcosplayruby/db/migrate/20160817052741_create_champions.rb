@@ -9,7 +9,7 @@ class CreateChampions < ActiveRecord::Migration[5.0]
       t.boolean :support
       t.string :citystate
       t.string :sex
-      t.string :race
+      t.boolean :race
 
       t.timestamps
     end

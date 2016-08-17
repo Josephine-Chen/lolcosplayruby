@@ -9,7 +9,7 @@ CREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value"
 INSERT INTO "ar_internal_metadata" VALUES('environment','development','2016-08-17 10:09:48.836168','2016-08-17 10:09:48.836168');
 CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "password" varchar, "name" varchar, "role" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
 CREATE TABLE "guides" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "link" varchar, "type" varchar, "author" varchar, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
-CREATE TABLE "champions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "top" boolean, "jungle" boolean, "mid" boolean, "adc" boolean, "support" boolean, "citystate" varchar, "sex" varchar, "race" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+CREATE TABLE "champions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "top" boolean, "jungle" boolean, "mid" boolean, "adc" boolean, "support" boolean, "citystate" varchar, "sex" varchar, "race" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
 INSERT INTO "champions" VALUES(1,'Aatrox','true','false','false','false','false','Independent','M','false','2016-08-17','2016-08-17');
 CREATE TABLE "skins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "theme" varchar, "hairLength" varchar, "hairColor" varchar, "secondaryHairColor" varchar, "armor" varchar, "bodypaint" boolean, "wings" boolean, "tail" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
 INSERT INTO "skins" VALUES(1,'Justicar','Divine','None','NULL','NULL','Heavy','false','true','false','2016-08-17','2016-08-17');
