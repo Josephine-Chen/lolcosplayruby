@@ -9,17 +9,17 @@ Future features:
 	-Ability to write their own guides and host on the website, thus allowing upvote guide feature and comments
 
 ERD:
-![ERD](/app/assets/images/ERD.png?raw=true "ERD")
+![ERD](/assets/images/ERD.png?raw=true "ERD")
 
 Home Wireframe:
-![Home Wireframe](../assets/images/ERD.png?raw=true "Home Wireframe")
+![Home Wireframe](/assets/images/ERD.png?raw=true "Home Wireframe")
 Champion Page Wireframe:
-![Champion Wireframe](../assets/images/ERD.png?raw=true "Champion Wireframe")
+![Champion Wireframe](/assets/images/ERD.png?raw=true "Champion Wireframe")
 Themes Wireframe:
-![Themes Wireframe](../assets/images/ERD.png?raw=true "Themes Wireframe")
+![Themes Wireframe](/assets/images/ERD.png?raw=true "Themes Wireframe")
 Guides Wireframe:
-![Guides Wireframe](../assets/images/ERD.png?raw=true "Guides Wireframe")
+![Guides Wireframe](/assets/images/ERD.png?raw=true "Guides Wireframe")
 Gallery Wireframe:
-![Gallery Wireframe](../assets/images/ERD.png?raw=true "Gallery Wireframe")
+![Gallery Wireframe](/assets/images/ERD.png?raw=true "Gallery Wireframe")
 
 LoLCosplay isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
