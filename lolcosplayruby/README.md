@@ -9,7 +9,7 @@ Future features:
 	-Ability to write their own guides and host on the website, thus allowing upvote guide feature and comments
 
 ERD:
-![ERD](https://www.dropbox.com/s/e2uy7k1cba1l3s8/ERD.png?dl=0)
+![ERD](app/assets/images/ERD.png)
 
 Home Wireframe:
 ![Home Wireframe](https://www.dropbox.com/s/ys6qjgve6o0gtot/Home.png?dl=0)
