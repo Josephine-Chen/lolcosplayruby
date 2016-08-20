@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-	root 'welcome#index'
+  #root 'welcome#index'
+  root to: 'application#angular'
   resources :skins
   resources :champions, :has_many => :skins
   resources :guides

@@ -52,4 +52,13 @@ gem 'rails_12factor', group: :production
 
 #For Riot Games API
 gem 'ruby-lol'
+
+#For AngularJS integration
+gem 'angular-rails-templates'
+#gem 'angular_rails_csrf'
+
+#For bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
 ruby '2.2.4'

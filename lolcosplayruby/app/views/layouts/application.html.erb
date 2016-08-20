@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lolcosplayruby</title>
-    <%= csrf_meta_tags %>
-
+    <title>LolCosplay</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
   </head>
 
   <body>
-    <%= yield %>
+  	<div class="jumbotron">
+  	<h2>
+  		LoLCosplay
+  	</h2>
+  	Hello. Welcome to LoLCosplay, a League of Legends cosplay resource site.
+    </div>
   </body>
 </html>
