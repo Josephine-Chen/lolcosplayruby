@@ -9,17 +9,17 @@ Future features:
 	-Ability to write their own guides and host on the website, thus allowing upvote guide feature and comments
 
 ERD:
-![ERD](https://raw.github.com/Josephine-Chen/lolcosplayruby/tree/master/lolcosplayruby/app/assets/images/ERD.png)
+![ERD](https://www.dropbox.com/s/e2uy7k1cba1l3s8/ERD.png?dl=0)
 
 Home Wireframe:
-![Home Wireframe](https://raw.github.com/Josephine-Chen/lolcosplayruby/tree/master/lolcosplayruby/app/assets/images/Home.png)
+![Home Wireframe](https://www.dropbox.com/s/ys6qjgve6o0gtot/Home.png?dl=0)
 Champion Page Wireframe:
-![Champion Wireframe](https://raw.github.com/Josephine-Chen/lolcosplayruby/tree/master/lolcosplayruby/app/assets/images/Champion Page.png)
+![Champion Wireframe](https://www.dropbox.com/s/zlzxyzdpxcrvv79/Champion%20Page.png?dl=0)
 Themes Wireframe:
-![Themes Wireframe](https://raw.github.com/Josephine-Chen/lolcosplayruby/tree/master/lolcosplayruby/app/assets/images/Themes.png)
+![Themes Wireframe](https://www.dropbox.com/s/ttmhsn3iptnj30s/Themes.png?dl=0)
 Guides Wireframe:
-![Guides Wireframe](https://raw.github.com/Josephine-Chen/lolcosplayruby/tree/master/lolcosplayruby/app/assets/images/Guides.png)
+![Guides Wireframe](https://www.dropbox.com/s/jummw67z7asn4lp/Guides.png?dl=0)
 Gallery Wireframe:
-![Gallery Wireframe](https://raw.github.com/Josephine-Chen/lolcosplayruby/tree/master/lolcosplayruby/app/assets/images/Gallery.png)
+![Gallery Wireframe](https://www.dropbox.com/s/4lmozyt9hvce815/Gallery.png?dl=0)
 
 LoLCosplay isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
